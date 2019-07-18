@@ -1,0 +1,102 @@
+body{
+  background: #333;
+  color: white;
+  font-family: sans-serif;
+}
+
+#container{
+  width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  background: grey;
+  min-height: 700px;
+  border: 2px solid black;
+  border-radius: 5px;
+}
+
+#topBar{
+  width: auto;
+  height: 60px;
+  border: 1px solid black;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  background: white;
+}
+
+#theList{
+  width: auto;
+}
+
+.confirmBtn{
+  width: 40px;
+  height: 40px;
+  background: green;
+  float: right;
+  margin: 10px 10px 10px auto;
+  border: 0.5px solid black;
+  border-radius: 28px;
+  font-size: 34px;
+  text-align: center;
+  cursor: pointer;
+}
+
+input.itemText{
+  float: left;
+  width: 400px;
+  height: 40px;
+  margin: 9px auto 9px 10px;
+  border: none;
+}
+
+input:focus{
+  outline: 0;
+}
+
+ul{
+  padding: 0;
+}
+
+button:focus {
+  outline:0;
+}
+
+button.deleteBtn{
+  float: right;
+  width:25px;
+  height: 25px;
+  background: rgb(210, 212, 196);
+  border: 1px solid rgb(140, 125, 27);
+  border-radius: 10px;
+  color: black;
+  margin: 3px 6px 3px auto;
+  font-size: 15px;
+  text-align: center;
+  display: block;
+}
+
+button.deleteBtn:hover {
+  color: white;
+  background: rgb(177, 34, 34);
+  cursor: pointer;
+}
+
+li{
+  background: rgb(118, 236, 186);
+  display:block;
+  width: auto;
+  height: 30px;
+  font-size: 20px;
+  margin:5px;
+  padding: 3px;
+  padding-left: 10px;
+  list-style: none;
+  list-style-position: inside;
+  border: 1px solid rgba(19, 20, 28, 0.83);
+  border-radius: 5px;
+  color: rgb(60, 49, 55);
+}
+#text{
+  margin-top: 5px;
+}
